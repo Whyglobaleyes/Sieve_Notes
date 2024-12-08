@@ -7,7 +7,7 @@ Some help-notes for writing Sieve filters: would be great to find a working tool
 A language/ protocol used by email servers specifying `filters` to be applied to email messages that are then `filed`/ `actioned` .
 
 
-## General Syntax
+## GENERAL SYNTAX
 
 #### Line Ending
 Every line must be terminated with a semi-colon 
@@ -24,6 +24,13 @@ Either bash-script `# hash symbol` or PHP-style `/* this is a comment, can be mu
 
 # AVAILABLE EXTENSIONS 
 
+* imap4flags
+* copy
+* fileinto
+* mailbox
+* body
+* envelope
+* reject
 
 ------
 
