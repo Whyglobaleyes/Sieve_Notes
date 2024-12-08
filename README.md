@@ -36,14 +36,15 @@ Either bash-script `# hash symbol` or PHP-style `/* this is a comment, can be mu
 
 # AVAILABLE FILTERS
 
-> SENT MESSAGES
+## SENT MESSAGES
 > 
 > Maybe This Works:
 >
 >       if exists "Delivered-To" {expire "day" "30";}
 >
 > https://www.reddit.com/r/ProtonMail/comments/16gt82i/sieve_filter_and_sent_messages/?rdt=61556
-
+### -OR- 
+set a domainwide bcc every message then filter the inbound messages to select the ones sent by me 
 
 ------
 
