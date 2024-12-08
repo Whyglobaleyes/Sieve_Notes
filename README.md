@@ -40,9 +40,7 @@ Either bash-script `# hash symbol` or PHP-style `/* this is a comment, can be mu
 > 
 > Maybe This Works:
 >
-> LINE1: require "vnd.proton.expire";
->
-> LINE2: if exists "Delivered-To" {expire "day" "30";}
+>       if exists "Delivered-To" {expire "day" "30";}
 >
 > https://www.reddit.com/r/ProtonMail/comments/16gt82i/sieve_filter_and_sent_messages/?rdt=61556
 
