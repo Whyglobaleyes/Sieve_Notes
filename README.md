@@ -19,6 +19,16 @@ Every SieveFile starts with a first line specifying the extensions (modules) nee
 #### Comments
 Either bash-script `# hash symbol` or PHP-style `/* this is a comment, can be multiline */` comments are allowed .
 
+
+------
+
+# AVAILABLE EXTENSIONS 
+
+
+------
+
+# AVAILABLE FILTERS
+
 > SENT MESSAGES
 > 
 > Maybe This Works:
@@ -29,9 +39,10 @@ Either bash-script `# hash symbol` or PHP-style `/* this is a comment, can be mu
 >
 > https://www.reddit.com/r/ProtonMail/comments/16gt82i/sieve_filter_and_sent_messages/?rdt=61556
 
-## Available Filters 
 
-## Available Actions 
+------
+
+# AVAILABLE ACTIONS 
 
 -----------------------------
 
