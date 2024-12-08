@@ -9,14 +9,21 @@ A language/ protocol used by email servers specifying `filters` to be applied to
 
 ## General Syntax
 
+#### Line Ending
+Every line must be terminated with a semi-colon 
+
+#### Shebang
+Every SieveFile starts with a first line specifying the extensions (modules) needed
+ `require ["imap4flags","copy", "fileinto", "mailbox", "body", "envelope", "reject"];` 
+
 #### Comments
 Either bash-script `# hash symbol` or PHP-style `/* this is a comment, can be multiline */` comments are allowed .
 
-#### Shebang
-Every SieveFile starts with a first line of `require ["fileinto", "reject"];`
-
-
-
+> SENT MESSAGES
+> Maybe This Works:
+> LINE1: require "vnd.proton.expire";
+> LINE2: if exists "Delivered-To" {expire "day" "30";}
+> https://www.reddit.com/r/ProtonMail/comments/16gt82i/sieve_filter_and_sent_messages/?rdt=61556
 
 ## Available Filters 
 
